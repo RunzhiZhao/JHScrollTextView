@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		075F717E086DF68904AA0CA5 /* Pods-JHScrollTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHScrollTextView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHScrollTextView_Tests/Pods-JHScrollTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0A4F9A7717E7A62A1A23F0F1 /* Pods-JHScrollTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHScrollTextView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHScrollTextView_Tests/Pods-JHScrollTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		335C30C90D002B5DF08E875C /* JHScrollTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JHScrollTextView.podspec; path = ../JHScrollTextView.podspec; sourceTree = "<group>"; };
-		566594DD94298028033614C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		335C30C90D002B5DF08E875C /* JHScrollTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JHScrollTextView.podspec; path = ../JHScrollTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		566594DD94298028033614C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JHScrollTextView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHScrollTextView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CF56631ADAA6F8729A0309B /* Pods-JHScrollTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHScrollTextView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHScrollTextView_Example/Pods-JHScrollTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B3A2F09F7B728B4510D4C501 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3A2F09F7B728B4510D4C501 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B6FF065683E6BFC714D71771 /* Pods_JHScrollTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHScrollTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB1DD6F55A8858F975BD1ED /* Pods_JHScrollTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHScrollTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6011C313084D64AB4130C53 /* Pods-JHScrollTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHScrollTextView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHScrollTextView_Example/Pods-JHScrollTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -440,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -488,6 +488,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHScrollTextView/JHScrollTextView-Prefix.pch";
 				INFOPLIST_FILE = "JHScrollTextView/JHScrollTextView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +504,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHScrollTextView/JHScrollTextView-Prefix.pch";
 				INFOPLIST_FILE = "JHScrollTextView/JHScrollTextView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

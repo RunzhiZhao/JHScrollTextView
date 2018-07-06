@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JHScrollTextView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JHScrollTextView.'
+  s.summary          = '水平方向文本跑马灯'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ 'JHScrollTextView是一个水平方向上自动滚动的跑马灯效果控件'
                        DESC
 
   s.homepage         = 'https://github.com/Runzhi.Zhao/JHScrollTextView'

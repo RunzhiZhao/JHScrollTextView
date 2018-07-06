@@ -1,0 +1,16 @@
+PODS:
+  - JHScrollTextView (0.1.0)
+
+DEPENDENCIES:
+  - JHScrollTextView (from `../`)
+
+EXTERNAL SOURCES:
+  JHScrollTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JHScrollTextView: d02fbbf2ac772659801ccc64dc4654de72c59b53
+
+PODFILE CHECKSUM: 235aff2ee7e578dd83efffc6da97fa5c79b47f00
+
+COCOAPODS: 1.5.2
