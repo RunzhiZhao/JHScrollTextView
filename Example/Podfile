@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JHScrollTextView_Example' do
+  pod 'JHScrollTextView', :path => '../'
+
+  target 'JHScrollTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
