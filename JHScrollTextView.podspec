@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
  'JHScrollTextView是一个水平方向上自动滚动的跑马灯效果控件'
                        DESC
 
-  s.homepage         = 'https://github.com/Runzhi.Zhao/JHScrollTextView'
+  s.homepage         = 'https://github.com/RunzhiZhao/JHScrollTextView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Runzhi.Zhao' => '852356753@qq.com' }
